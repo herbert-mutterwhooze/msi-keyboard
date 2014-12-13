@@ -2,7 +2,11 @@
 	"regions": {
 		"left": 1,
 		"middle": 2,
-		"right": 3
+		"right": 3,
+		"logo": 4,
+		"frontRight": 5,
+		"frontLeft": 6,
+		"mouse": 7
 	},
 	"colors": {
 		"off": 0,

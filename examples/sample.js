@@ -1,25 +1,9 @@
 var keyboard = require('../');
-
-keyboard.color('left', {
-	color: 'red',
-	intensity: 'med'
-});
-keyboard.color('middle', {
-	color: 'green',
-	intensity: 'med'
-});
-keyboard.color('right', {
-	color: 'blue',
-	intensity: 'med',
-});
-
-keyboard.mode('breathe');
-
-
-
-
-
-keyboard.blink(['left'], 750);
-
-setTimeout(keyboard.stopBlink, 5000);
-
+var color = 200;
+keyboard.color('left', color, color, color);
+keyboard.color('middle', color, color, color);
+keyboard.color('right', color, color, color);
+keyboard.color('logo', color, color, color);
+keyboard.color('frontLeft', color, color, color);
+keyboard.color('frontRight', color, color, color);
+keyboard.color('mouse', color, color, color);
